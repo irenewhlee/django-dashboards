@@ -435,41 +435,26 @@ hr{
 
 .span-1 {
   grid-column-end: span 1 !important;
-}
-
-.span-1 {
   grid-auto-rows: min-content;
 }
 
 .span-2 {
   grid-column-end: span 2 !important;
-}
-
-.span-2 {
   grid-auto-rows: min-content;
 }
 
 .span-3 {
   grid-column-end: span 3 !important;
-}
-
-.span-3 {
   grid-auto-rows: min-content;
 }
 
 .span-4 {
   grid-column-end: span 4 !important;
-}
-
-.span-4 {
   grid-auto-rows: min-content;
 }
 
 .span-5 {
   grid-column-end: span 5 !important;
-}
-
-.span-5 {
   grid-auto-rows: min-content;
 }
 
@@ -673,9 +658,6 @@ h1, h2, h3, h4, p, .tab-container {
 .dataTables_filter, .dataTables_length, .dataTables_info, .dataTables_paginate {
   color: var(--color-text-primary) !important;
   font-size: 0.9rem !important;
-}
-
-.dataTables_filter, .dataTables_length, .dataTables_info, .dataTables_paginate {
   margin-bottom: 10px;
 }
 

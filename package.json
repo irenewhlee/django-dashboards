@@ -8,17 +8,30 @@
   "scripts": {
     "build-css": "postcss dashboards/static/dashboards/css/src/index.css -o dashboards/static/dashboards/css/dashboards.css"
   },
+  "dependencies": {
+    "yaml": "^2.8.3",
+    "micromatch": "^4.0.8",
+    "braces": "^3.0.3",
+    "picomatch": "^4.0.4"
+  },
   "devDependencies": {
-    "postcss": "^8.5.10",
+    "postcss": "^8.4.31",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
-    "postcss-preset-env": "^8.0.0"
+    "postcss-preset-env": "^9.3.0"
   },
   "overrides": {
-    "yaml": ">=2.8.3",
-    "micromatch": ">=4.0.8",
-    "braces": ">=3.0.3",
-    "nanoid": ">=5.0.9",
-    "picomatch": ">=4.0.4"
+    "yaml": "^2.8.3",
+    "micromatch": "^4.0.8",
+    "braces": "^3.0.3",
+    "picomatch": "^4.0.4",
+    "nanoid": "3.3.7"
+  },
+  "resolutions": {
+    "yaml": "^2.8.3",
+    "micromatch": "^4.0.8",
+    "braces": "^3.0.3",
+    "picomatch": "^4.0.4",
+    "nanoid": "3.3.7"
   }
 }
